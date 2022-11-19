@@ -46,7 +46,16 @@ Well, the packets are sent and received through different ways:
 
 4. Cable: uses the existing TV coaxial cable, while providing TV channels. Cable can provide higher speeds than DSL. The problem is that when there are too many users, the speed may start to decline. Even when one has cable internet at home, usually fiber cables do most of the work for transmitting the data, and only the data comes through cable when it gets close to one's house.
 
+## Miscellaneous questions
+
+### How did the dial-up modems work?
+
+In the early days of the Internet, there was no dedicated lines for the Internet. All what we had was telephone lines, which was designed to carry human voice.
+
+To overcome this limitation, MODulator/DEModulator (modem) was designed to convert 0s and 1s to analog audio signals on the wire. The reason that the dial-up modems made such horrible sounds, was due to the fact that it was literally sending 0s and 1s in the form of audio signals to the ISP to make the initial negotiation for the maximum possible speed.
+
+But DSL also uses phone lines. How comes that while using dial-up the phone line was unusable, but that's not the case with DSL? Because technology got better and helped DSL to push the Internet signals to a higher frequency, thus the phone line for human voice(20Hz-20000Hz) remains unblocked.
+
 ## Open questions to be investigated
 
-* How did the dial-in modems work in the past?
 * Do we need a modem for fiber connection?
